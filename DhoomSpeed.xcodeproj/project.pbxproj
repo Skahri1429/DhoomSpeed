@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		286C76A51CA8A5AE00267731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C76A41CA8A5AE00267731 /* AppDelegate.swift */; };
+		286C76A71CA8A5AE00267731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C76A61CA8A5AE00267731 /* ViewController.swift */; };
+		286C76AA1CA8A5AE00267731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286C76A81CA8A5AE00267731 /* Main.storyboard */; };
+		286C76AC1CA8A5AE00267731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286C76AB1CA8A5AE00267731 /* Assets.xcassets */; };
+		286C76AF1CA8A5AE00267731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286C76AD1CA8A5AE00267731 /* LaunchScreen.storyboard */; };
+		286C76BA1CA8A5AE00267731 /* DhoomSpeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C76B91CA8A5AE00267731 /* DhoomSpeedTests.swift */; };
+		286C76C51CA8A5AE00267731 /* DhoomSpeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C76C41CA8A5AE00267731 /* DhoomSpeedUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		286C76B61CA8A5AE00267731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286C76991CA8A5AE00267731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 286C76A01CA8A5AE00267731;
+			remoteInfo = DhoomSpeed;
+		};
+		286C76C11CA8A5AE00267731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286C76991CA8A5AE00267731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 286C76A01CA8A5AE00267731;
+			remoteInfo = DhoomSpeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		286C76A11CA8A5AE00267731 /* DhoomSpeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DhoomSpeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		286C76A41CA8A5AE00267731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		286C76A61CA8A5AE00267731 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		286C76A91CA8A5AE00267731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		286C76AB1CA8A5AE00267731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		286C76AE1CA8A5AE00267731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		286C76B01CA8A5AE00267731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286C76B51CA8A5AE00267731 /* DhoomSpeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DhoomSpeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		286C76B91CA8A5AE00267731 /* DhoomSpeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DhoomSpeedTests.swift; sourceTree = "<group>"; };
+		286C76BB1CA8A5AE00267731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286C76C01CA8A5AE00267731 /* DhoomSpeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DhoomSpeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		286C76C41CA8A5AE00267731 /* DhoomSpeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DhoomSpeedUITests.swift; sourceTree = "<group>"; };
+		286C76C61CA8A5AE00267731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		286C769E1CA8A5AE00267731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286C76B21CA8A5AE00267731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286C76BD1CA8A5AE00267731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		286C76981CA8A5AE00267731 = {
+			isa = PBXGroup;
+			children = (
+				286C76A31CA8A5AE00267731 /* DhoomSpeed */,
+				286C76B81CA8A5AE00267731 /* DhoomSpeedTests */,
+				286C76C31CA8A5AE00267731 /* DhoomSpeedUITests */,
+				286C76A21CA8A5AE00267731 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		286C76A21CA8A5AE00267731 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				286C76A11CA8A5AE00267731 /* DhoomSpeed.app */,
+				286C76B51CA8A5AE00267731 /* DhoomSpeedTests.xctest */,
+				286C76C01CA8A5AE00267731 /* DhoomSpeedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		286C76A31CA8A5AE00267731 /* DhoomSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				286C76A41CA8A5AE00267731 /* AppDelegate.swift */,
+				286C76A61CA8A5AE00267731 /* ViewController.swift */,
+				286C76A81CA8A5AE00267731 /* Main.storyboard */,
+				286C76AB1CA8A5AE00267731 /* Assets.xcassets */,
+				286C76AD1CA8A5AE00267731 /* LaunchScreen.storyboard */,
+				286C76B01CA8A5AE00267731 /* Info.plist */,
+			);
+			path = DhoomSpeed;
+			sourceTree = "<group>";
+		};
+		286C76B81CA8A5AE00267731 /* DhoomSpeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				286C76B91CA8A5AE00267731 /* DhoomSpeedTests.swift */,
+				286C76BB1CA8A5AE00267731 /* Info.plist */,
+			);
+			path = DhoomSpeedTests;
+			sourceTree = "<group>";
+		};
+		286C76C31CA8A5AE00267731 /* DhoomSpeedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				286C76C41CA8A5AE00267731 /* DhoomSpeedUITests.swift */,
+				286C76C61CA8A5AE00267731 /* Info.plist */,
+			);
+			path = DhoomSpeedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		286C76A01CA8A5AE00267731 /* DhoomSpeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286C76C91CA8A5AE00267731 /* Build configuration list for PBXNativeTarget "DhoomSpeed" */;
+			buildPhases = (
+				286C769D1CA8A5AE00267731 /* Sources */,
+				286C769E1CA8A5AE00267731 /* Frameworks */,
+				286C769F1CA8A5AE00267731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DhoomSpeed;
+			productName = DhoomSpeed;
+			productReference = 286C76A11CA8A5AE00267731 /* DhoomSpeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		286C76B41CA8A5AE00267731 /* DhoomSpeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286C76CC1CA8A5AE00267731 /* Build configuration list for PBXNativeTarget "DhoomSpeedTests" */;
+			buildPhases = (
+				286C76B11CA8A5AE00267731 /* Sources */,
+				286C76B21CA8A5AE00267731 /* Frameworks */,
+				286C76B31CA8A5AE00267731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				286C76B71CA8A5AE00267731 /* PBXTargetDependency */,
+			);
+			name = DhoomSpeedTests;
+			productName = DhoomSpeedTests;
+			productReference = 286C76B51CA8A5AE00267731 /* DhoomSpeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		286C76BF1CA8A5AE00267731 /* DhoomSpeedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286C76CF1CA8A5AE00267731 /* Build configuration list for PBXNativeTarget "DhoomSpeedUITests" */;
+			buildPhases = (
+				286C76BC1CA8A5AE00267731 /* Sources */,
+				286C76BD1CA8A5AE00267731 /* Frameworks */,
+				286C76BE1CA8A5AE00267731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				286C76C21CA8A5AE00267731 /* PBXTargetDependency */,
+			);
+			name = DhoomSpeedUITests;
+			productName = DhoomSpeedUITests;
+			productReference = 286C76C01CA8A5AE00267731 /* DhoomSpeedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		286C76991CA8A5AE00267731 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sarthak Khillon";
+				TargetAttributes = {
+					286C76A01CA8A5AE00267731 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					286C76B41CA8A5AE00267731 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 286C76A01CA8A5AE00267731;
+					};
+					286C76BF1CA8A5AE00267731 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 286C76A01CA8A5AE00267731;
+					};
+				};
+			};
+			buildConfigurationList = 286C769C1CA8A5AE00267731 /* Build configuration list for PBXProject "DhoomSpeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 286C76981CA8A5AE00267731;
+			productRefGroup = 286C76A21CA8A5AE00267731 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				286C76A01CA8A5AE00267731 /* DhoomSpeed */,
+				286C76B41CA8A5AE00267731 /* DhoomSpeedTests */,
+				286C76BF1CA8A5AE00267731 /* DhoomSpeedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		286C769F1CA8A5AE00267731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286C76AF1CA8A5AE00267731 /* LaunchScreen.storyboard in Resources */,
+				286C76AC1CA8A5AE00267731 /* Assets.xcassets in Resources */,
+				286C76AA1CA8A5AE00267731 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286C76B31CA8A5AE00267731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286C76BE1CA8A5AE00267731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		286C769D1CA8A5AE00267731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286C76A71CA8A5AE00267731 /* ViewController.swift in Sources */,
+				286C76A51CA8A5AE00267731 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286C76B11CA8A5AE00267731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286C76BA1CA8A5AE00267731 /* DhoomSpeedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286C76BC1CA8A5AE00267731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286C76C51CA8A5AE00267731 /* DhoomSpeedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		286C76B71CA8A5AE00267731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 286C76A01CA8A5AE00267731 /* DhoomSpeed */;
+			targetProxy = 286C76B61CA8A5AE00267731 /* PBXContainerItemProxy */;
+		};
+		286C76C21CA8A5AE00267731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 286C76A01CA8A5AE00267731 /* DhoomSpeed */;
+			targetProxy = 286C76C11CA8A5AE00267731 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		286C76A81CA8A5AE00267731 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				286C76A91CA8A5AE00267731 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		286C76AD1CA8A5AE00267731 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				286C76AE1CA8A5AE00267731 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		286C76C71CA8A5AE00267731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		286C76C81CA8A5AE00267731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		286C76CA1CA8A5AE00267731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DhoomSpeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarthakkhillon.DhoomSpeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		286C76CB1CA8A5AE00267731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DhoomSpeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarthakkhillon.DhoomSpeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		286C76CD1CA8A5AE00267731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DhoomSpeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarthakkhillon.DhoomSpeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DhoomSpeed.app/DhoomSpeed";
+			};
+			name = Debug;
+		};
+		286C76CE1CA8A5AE00267731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DhoomSpeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarthakkhillon.DhoomSpeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DhoomSpeed.app/DhoomSpeed";
+			};
+			name = Release;
+		};
+		286C76D01CA8A5AE00267731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DhoomSpeedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarthakkhillon.DhoomSpeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DhoomSpeed;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		286C76D11CA8A5AE00267731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DhoomSpeedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarthakkhillon.DhoomSpeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DhoomSpeed;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		286C769C1CA8A5AE00267731 /* Build configuration list for PBXProject "DhoomSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286C76C71CA8A5AE00267731 /* Debug */,
+				286C76C81CA8A5AE00267731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		286C76C91CA8A5AE00267731 /* Build configuration list for PBXNativeTarget "DhoomSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286C76CA1CA8A5AE00267731 /* Debug */,
+				286C76CB1CA8A5AE00267731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		286C76CC1CA8A5AE00267731 /* Build configuration list for PBXNativeTarget "DhoomSpeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286C76CD1CA8A5AE00267731 /* Debug */,
+				286C76CE1CA8A5AE00267731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		286C76CF1CA8A5AE00267731 /* Build configuration list for PBXNativeTarget "DhoomSpeedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286C76D01CA8A5AE00267731 /* Debug */,
+				286C76D11CA8A5AE00267731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 286C76991CA8A5AE00267731 /* Project object */;
+}
