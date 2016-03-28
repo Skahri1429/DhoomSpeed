@@ -14,6 +14,7 @@
 		286C76AF1CA8A5AE00267731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286C76AD1CA8A5AE00267731 /* LaunchScreen.storyboard */; };
 		286C76BA1CA8A5AE00267731 /* DhoomSpeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C76B91CA8A5AE00267731 /* DhoomSpeedTests.swift */; };
 		286C76C51CA8A5AE00267731 /* DhoomSpeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C76C41CA8A5AE00267731 /* DhoomSpeedUITests.swift */; };
+		286C76D31CA8BF7B00267731 /* Dhoom Theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 286C76D21CA8BF7B00267731 /* Dhoom Theme.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		286C76C01CA8A5AE00267731 /* DhoomSpeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DhoomSpeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		286C76C41CA8A5AE00267731 /* DhoomSpeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DhoomSpeedUITests.swift; sourceTree = "<group>"; };
 		286C76C61CA8A5AE00267731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286C76D21CA8BF7B00267731 /* Dhoom Theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dhoom Theme.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				286C76A61CA8A5AE00267731 /* ViewController.swift */,
 				286C76A81CA8A5AE00267731 /* Main.storyboard */,
 				286C76AB1CA8A5AE00267731 /* Assets.xcassets */,
+				286C76D21CA8BF7B00267731 /* Dhoom Theme.mp3 */,
 				286C76AD1CA8A5AE00267731 /* LaunchScreen.storyboard */,
 				286C76B01CA8A5AE00267731 /* Info.plist */,
 			);
@@ -232,6 +235,7 @@
 				286C76AF1CA8A5AE00267731 /* LaunchScreen.storyboard in Resources */,
 				286C76AC1CA8A5AE00267731 /* Assets.xcassets in Resources */,
 				286C76AA1CA8A5AE00267731 /* Main.storyboard in Resources */,
+				286C76D31CA8BF7B00267731 /* Dhoom Theme.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
