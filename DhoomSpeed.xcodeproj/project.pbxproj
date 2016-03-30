@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285D31611CAC26DE008E48D6 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285D31601CAC26DE008E48D6 /* LocationViewController.swift */; };
+		285D31631CAC2875008E48D6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285D31621CAC2875008E48D6 /* MainViewController.swift */; };
 		286C76A51CA8A5AE00267731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C76A41CA8A5AE00267731 /* AppDelegate.swift */; };
-		286C76A71CA8A5AE00267731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C76A61CA8A5AE00267731 /* ViewController.swift */; };
 		286C76AA1CA8A5AE00267731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286C76A81CA8A5AE00267731 /* Main.storyboard */; };
 		286C76AC1CA8A5AE00267731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286C76AB1CA8A5AE00267731 /* Assets.xcassets */; };
 		286C76AF1CA8A5AE00267731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286C76AD1CA8A5AE00267731 /* LaunchScreen.storyboard */; };
@@ -35,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		285D31601CAC26DE008E48D6 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationViewController.swift; path = ../LocationViewController.swift; sourceTree = "<group>"; };
+		285D31621CAC2875008E48D6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		286C76A11CA8A5AE00267731 /* DhoomSpeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DhoomSpeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286C76A41CA8A5AE00267731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		286C76A61CA8A5AE00267731 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		286C76A91CA8A5AE00267731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		286C76AB1CA8A5AE00267731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		286C76AE1CA8A5AE00267731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				286C76A41CA8A5AE00267731 /* AppDelegate.swift */,
-				286C76A61CA8A5AE00267731 /* ViewController.swift */,
+				285D31601CAC26DE008E48D6 /* LocationViewController.swift */,
+				285D31621CAC2875008E48D6 /* MainViewController.swift */,
 				286C76A81CA8A5AE00267731 /* Main.storyboard */,
 				286C76AB1CA8A5AE00267731 /* Assets.xcassets */,
 				286C76D21CA8BF7B00267731 /* Dhoom Theme.mp3 */,
@@ -260,7 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				286C76A71CA8A5AE00267731 /* ViewController.swift in Sources */,
+				285D31631CAC2875008E48D6 /* MainViewController.swift in Sources */,
+				285D31611CAC26DE008E48D6 /* LocationViewController.swift in Sources */,
 				286C76A51CA8A5AE00267731 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +492,7 @@
 				286C76CB1CA8A5AE00267731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		286C76CC1CA8A5AE00267731 /* Build configuration list for PBXNativeTarget "DhoomSpeedTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				286C76CE1CA8A5AE00267731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		286C76CF1CA8A5AE00267731 /* Build configuration list for PBXNativeTarget "DhoomSpeedUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				286C76D11CA8A5AE00267731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
